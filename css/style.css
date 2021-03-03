@@ -9,28 +9,29 @@ body {
     content: '';
     height: 100vh;
     width: 100%;
-    background-image: url('../img/fondo.png');
+    background-image: url('../img/fondo1.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: block;
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+    filter: blur(2px);
+    -webkit-filter: blur(0px);
     transition: all 1000ms;
 
 }
 
 header:hover::after{
-    filter: blur(0px);
-    -webkit-filter: blur(0px);
-}
-
-.header:hover .header-content{
     filter: blur(2px);
     -webkit-filter: blur(2px);
 }
 
+.header:hover .header-content{
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+}
+
 .header-content{
+    color:lightgray;
     position: absolute;
     z-index: 1;
     top: 10%;
@@ -110,7 +111,7 @@ footer p{
     margin:0;
 }
 
-@media(max-widht: 560px){
+@media(max-widht: 360px){
     .header::after{
         height: 50vh;
     }
