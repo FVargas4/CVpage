@@ -57,6 +57,10 @@ header:hover::after{
 
 }
 
+.icons a{
+    color:rgba(109, 2, 2, 0.9)
+}
+
 .header-content .text{
     line-height: 1.7;
     margin-top: 1rem;
