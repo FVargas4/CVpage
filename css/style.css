@@ -43,6 +43,7 @@ header:hover::after{
     height: 350px;
     text-align: center;
     transition: all 1000ms;
+    background-color:rgba(109, 2, 2, 0.363);
 }
 
 .header-content .logo{
