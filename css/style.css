@@ -100,7 +100,7 @@ header:hover::after{
 }
 
 .bg-dark{
-    background: #2f3542;
+    background-color: $blue-800;
     color: #f4f4f4;
 }
 
